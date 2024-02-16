@@ -1,0 +1,22 @@
+<div class="container-fluid fixed-top bg-dark text-light">
+  <div class="row d-flex justify-content-between align-content-center p-2">
+    <div class="col-2 m-auto">
+      <div class="text-decoration-underline" routerLink="/dashboard">
+        M-Builders
+      </div>
+    </div>
+    <div class="col m-auto">
+      <input
+        type="text"
+        class="form-control form-control-sm"
+        placeholder="Search Property"
+      />
+    </div>
+    <div class="col-2 m-auto">
+      <button class="btn-sm btn-outline-info text-dark">Log-in</button>
+    </div>
+  </div>
+</div>
+<div class="container border border-dark shadow p-3" style="margin-top: 6%">
+  <router-outlet></router-outlet>
+</div>
